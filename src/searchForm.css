@@ -1,0 +1,49 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.det-input {
+    height: 20px;
+    width: 220px;
+}
+
+.det-label {
+    text-align: right;
+    min-width: 120px;
+    margin-right: 0px;
+}
+
+.error {
+    color: red;
+}
+
+#select {
+    width: 230px;
+}
+
+.all {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 120px;
+    margin-right: 400px;
+    margin-top: 50px;
+}
+
+.mapDiv {
+    margin-top: 8px;
+}
+
+#chexboxDiv {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 200px;
+    margin-left: 30px;
+}
